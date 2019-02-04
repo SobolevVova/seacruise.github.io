@@ -1,0 +1,1247 @@
+.button {
+  display: block;
+  width: 200px;
+  height: 53px;
+  margin: 0 auto;
+  line-height: 48px;
+  font-weight: 300;
+  background-color: #33c7fd;
+  color: #fff;
+  border: 0; }
+
+.catalog-city {
+  padding-bottom: 34px;
+  margin-left: 21px; }
+  @media (min-width: 1170px) {
+    .catalog-city {
+      margin-left: 37px; } }
+
+.catalog-city__title {
+  position: relative;
+  margin: 0;
+  padding-right: 100px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd;
+  letter-spacing: 0.9px; }
+  .catalog-city__title::before {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 90px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 6px solid #33c7fd;
+    border-bottom: 4px solid transparent; }
+    @media (min-width: 750px) {
+      .catalog-city__title::before {
+        right: 168px; } }
+    @media (min-width: 1170px) {
+      .catalog-city__title::before {
+        top: 8px;
+        right: 183px; } }
+  @media (min-width: 750px) {
+    .catalog-city__title {
+      padding-right: 35px; } }
+
+.catalog-city__route {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 750px) {
+    .catalog-city__route {
+      padding-right: 40px; } }
+  @media (min-width: 1170px) {
+    .catalog-city__route {
+      letter-spacing: 0.7px; } }
+
+.catalog-city__duration {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-city__duration {
+      letter-spacing: 0.7px; } }
+
+.catalog-city__cost {
+  display: block;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 1.2px; }
+
+.catalog-cruises {
+  padding-bottom: 30px; }
+  @media (min-width: 750px) {
+    .catalog-cruises {
+      padding-bottom: 64px; } }
+  @media (min-width: 1170px) {
+    .catalog-cruises {
+      padding-bottom: 60px; } }
+
+.catalog-cruises__title {
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  line-height: 37px;
+  font-weight: 400; }
+  @media (min-width: 750px) {
+    .catalog-cruises__title {
+      font-size: 26px;
+      line-height: 48px; } }
+  @media (min-width: 1170px) {
+    .catalog-cruises__title {
+      font-size: 36px;
+      margin-bottom: 2px;
+      letter-spacing: 1.6px; } }
+
+.catalog-cruises__text {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__text {
+      letter-spacing: 0.8px; } }
+  .catalog-cruises__text::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: 32px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #0d3351; }
+    @media (min-width: 750px) {
+      .catalog-cruises__text::before {
+        right: 248px; } }
+    @media (min-width: 1170px) {
+      .catalog-cruises__text::before {
+        top: 11px;
+        right: 448px; } }
+
+.catalog-cruises__sort {
+  margin-bottom: 24px; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__sort {
+      margin-bottom: 38px; } }
+
+.catalog-cruises__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  @media (min-width: 750px) {
+    .catalog-cruises__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+  @media (min-width: 1170px) {
+    .catalog-cruises__list {
+      margin-bottom: 3px; } }
+
+.catalog-cruises__list img {
+  width: 100%; }
+
+.catalog-cruises__item {
+  margin-bottom: 21px;
+  background-color: #fff; }
+  @media (min-width: 750px) {
+    .catalog-cruises__item {
+      width: 345px; } }
+  @media (min-width: 1170px) {
+    .catalog-cruises__item {
+      width: 555px; } }
+
+@media (min-width: 1170px) {
+  .catalog-cruises__new {
+    position: relative;
+    border-bottom: 20px solid #f3f3f3; }
+    .catalog-cruises__new::before {
+      content: "";
+      position: absolute;
+      top: -7px;
+      right: 47px;
+      width: 89px;
+      height: 101px;
+      background-image: url("../img/tag-red.png");
+      background-repeat: no-repeat; } }
+
+@media (min-width: 1170px) {
+  .catalog-cruises__picture {
+    position: relative; }
+    .catalog-cruises__picture::before {
+      content: "";
+      position: absolute;
+      top: -7px;
+      right: 47px;
+      width: 89px;
+      height: 101px;
+      background-image: url("../img/tag-cherry.png");
+      background-repeat: no-repeat; } }
+
+.catalog-cruises__item--hit {
+  position: relative; }
+  .catalog-cruises__item--hit::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 24px;
+    width: 89px;
+    height: 101px;
+    background-image: url("../img/tag-blue.png");
+    background-repeat: no-repeat; }
+    @media (min-width: 750px) {
+      .catalog-cruises__item--hit::before {
+        right: 47px; } }
+
+.catalog-cruises__item--stock {
+  position: relative; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__item--stock {
+      display: none; } }
+  .catalog-cruises__item--stock::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 24px;
+    width: 89px;
+    height: 101px;
+    background-image: url("../img/tag-red.png");
+    background-repeat: no-repeat; }
+    @media (min-width: 750px) {
+      .catalog-cruises__item--stock::before {
+        right: 35px; } }
+
+.catalog-cruises__item--discount {
+  position: relative; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__item--discount {
+      display: none; } }
+  .catalog-cruises__item--discount::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 24px;
+    width: 89px;
+    height: 101px;
+    background-image: url("../img/tag-cherry.png");
+    background-repeat: no-repeat; }
+    @media (min-width: 750px) {
+      .catalog-cruises__item--discount::before {
+        right: 35px; } }
+
+.catalog-cruises__item--hidden {
+  display: none; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__item--hidden {
+      display: block; } }
+
+.catalog-cruises__item--sea {
+  display: none; }
+  @media (min-width: 1170px) {
+    .catalog-cruises__item--sea {
+      display: block; } }
+
+.catalog-cruises__img {
+  display: block;
+  margin-bottom: 19px; }
+
+.catalog-cruises__button {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 46px;
+  margin: 0 auto;
+  line-height: 48px;
+  font-weight: 300;
+  background-color: #33c7fd;
+  color: #fff;
+  border: 0;
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif; }
+  .catalog-cruises__button::before {
+    content: "";
+    position: absolute;
+    top: 21px;
+    right: 26px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #ffffff; }
+
+.catalog-description {
+  padding-bottom: 33px;
+  margin-left: 21px; }
+  @media (min-width: 1170px) {
+    .catalog-description {
+      margin-left: 36px; } }
+
+.catalog-description__title {
+  position: relative;
+  margin: 0;
+  padding-right: 110px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd;
+  letter-spacing: 1px; }
+  .catalog-description__title::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 172px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 6px solid #33c7fd;
+    border-bottom: 4px solid transparent; }
+    @media (min-width: 750px) {
+      .catalog-description__title::before {
+        top: 31px;
+        right: 247px; } }
+    @media (min-width: 1170px) {
+      .catalog-description__title::before {
+        top: 8px;
+        right: 264px; } }
+  @media (min-width: 750px) {
+    .catalog-description__title {
+      padding-right: 110px;
+      margin-bottom: 8px; } }
+
+.catalog-description__stroll {
+  margin: 0;
+  margin-bottom: 8px;
+  padding-right: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd; }
+
+.catalog-description__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.catalog-description__rate {
+  margin-left: 21px;
+  margin-top: 5px; }
+
+.catalog-description__route {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 750px) {
+    .catalog-description__route {
+      padding-right: 60px; } }
+  @media (min-width: 1170px) {
+    .catalog-description__route {
+      letter-spacing: 0.7px; } }
+
+.catalog-description__duration {
+  margin: 0;
+  margin-bottom: 7px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-description__duration {
+      letter-spacing: 0.7px; } }
+
+.catalog-description__cost {
+  display: block;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 1.2px; }
+
+.catalog-description__rate {
+  display: block;
+  font-size: 18px;
+  line-height: 48px;
+  color: #0d3351;
+  opacity: 0.55;
+  text-decoration: line-through; }
+
+.catalog-sea {
+  display: none; }
+  @media (min-width: 1170px) {
+    .catalog-sea {
+      display: block;
+      padding-bottom: 33px;
+      margin-left: 38px; } }
+
+@media (min-width: 1170px) {
+  .catalog-sea__title {
+    position: relative;
+    margin: 0;
+    padding-right: 60px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00a2dd;
+    letter-spacing: 0.9px; }
+    .catalog-sea__title::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: 157px;
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-left: 6px solid #33c7fd;
+      border-bottom: 4px solid transparent; } }
+
+@media (min-width: 1170px) {
+  .catalog-sea__route {
+    margin: 0;
+    font-family: "Raleway", "Arial", sans-serif;
+    letter-spacing: 0.7px; } }
+
+@media (min-width: 1170px) {
+  .catalog-sea__duration {
+    margin: 0;
+    letter-spacing: 0.7px;
+    font-family: "Raleway", "Arial", sans-serif;
+    margin-bottom: 8px; } }
+
+@media (min-width: 1170px) {
+  .catalog-sea__cost {
+    display: block;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 1.3px; } }
+
+.catalog-stroll {
+  padding-bottom: 27px;
+  margin-left: 21px; }
+  @media (min-width: 1170px) {
+    .catalog-stroll {
+      margin-left: 38px; } }
+
+.catalog-stroll__title {
+  position: relative;
+  margin: 0;
+  padding-right: 10px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd;
+  letter-spacing: 1px; }
+  @media (min-width: 1170px) {
+    .catalog-stroll__title {
+      letter-spacing: 0.9px; } }
+  .catalog-stroll__title::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 24px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 6px solid #33c7fd;
+    border-bottom: 4px solid transparent; }
+    @media (min-width: 750px) {
+      .catalog-stroll__title::before {
+        right: 194px; } }
+    @media (min-width: 1170px) {
+      .catalog-stroll__title::before {
+        top: 8px;
+        right: 75px; } }
+
+.catalog-stroll__route {
+  margin: 0;
+  padding-right: 50px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-stroll__route {
+      letter-spacing: 0.7px; } }
+
+.catalog-stroll__duration {
+  margin: 0;
+  margin-bottom: 7px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-stroll__duration {
+      letter-spacing: 0.7px; } }
+
+.catalog-stroll__cost {
+  display: block;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 1.2px; }
+
+.catalog-stroll__rate {
+  display: block;
+  margin-left: 11px;
+  margin-top: 4px;
+  font-size: 18px;
+  line-height: 48px;
+  opacity: 0.55;
+  text-decoration: line-through; }
+  @media (min-width: 1170px) {
+    .catalog-stroll__rate {
+      margin-left: 33px; } }
+
+.catalog-stroll__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.catalog-trip {
+  padding-bottom: 25px;
+  margin-left: 21px; }
+  @media (min-width: 1170px) {
+    .catalog-trip {
+      margin-left: 39px; } }
+
+.catalog-trip__title {
+  position: relative;
+  margin: 0;
+  padding-right: 67px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd;
+  letter-spacing: 0.9px; }
+  .catalog-trip__title::before {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 120px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 6px solid #33c7fd;
+    border-bottom: 4px solid transparent; }
+    @media (min-width: 750px) {
+      .catalog-trip__title::before {
+        right: 198px; } }
+    @media (min-width: 1170px) {
+      .catalog-trip__title::before {
+        top: 8px;
+        right: 178px; } }
+  @media (min-width: 750px) {
+    .catalog-trip__title {
+      padding-right: 33px; } }
+
+.catalog-trip__route {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-trip__route {
+      letter-spacing: 0.7px; } }
+
+.catalog-trip__duration {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .catalog-trip__duration {
+      margin-bottom: 10px;
+      letter-spacing: 0.7px; } }
+
+.catalog-trip__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.catalog-trip__cost {
+  display: block;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 1.2px; }
+
+.catalog-trip__rate {
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 48px;
+  opacity: 0.55;
+  text-decoration: line-through; }
+  @media (min-width: 1170px) {
+    .catalog-trip__rate {
+      margin-left: 36px;
+      margin-top: 2px; } }
+
+.copyright {
+  text-align: center; }
+  @media (min-width: 750px) {
+    .copyright {
+      text-align: left; } }
+  @media (min-width: 1170px) {
+    .copyright {
+      margin-right: 22px;
+      margin-top: 16px; } }
+
+.copyright__phone {
+  display: block;
+  font-weight: bold;
+  font-family: "Raleway", "Arial", sans-serif;
+  color: #0d3351;
+  text-transform: uppercase; }
+  @media (min-width: 1170px) {
+    .copyright__phone {
+      letter-spacing: 1.2px; } }
+
+.copyright__title {
+  margin: 0;
+  font-size: 10px;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.copyright__text {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+@media (min-width: 750px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 360px;
+    margin-right: 44px; } }
+
+@media (min-width: 1170px) {
+  .form {
+    width: 297px;
+    margin-right: 54px; } }
+
+@media (min-width: 750px) {
+  .form__personal {
+    position: relative;
+    margin: 0;
+    line-height: 48px;
+    font-family: "Raleway", "Arial", sans-serif; } }
+
+@media (min-width: 1170px) {
+  .form__personal {
+    letter-spacing: 0.7px; } }
+
+.form__personal::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: -16px;
+  width: 10px;
+  height: 12px;
+  background-image: url("../img/user.svg");
+  background-repeat: no-repeat; }
+
+.form__personal::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 111px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #0d3351;
+  cursor: pointer; }
+  @media (min-width: 1170px) {
+    .form__personal::after {
+      left: 124px; } }
+
+@media (min-width: 750px) {
+  .form__ruble {
+    position: relative;
+    margin: 0;
+    line-height: 48px;
+    font-family: "Raleway", "Arial", sans-serif; } }
+  @media (min-width: 750px) and (min-width: 1170px) {
+    .form__ruble {
+      margin-left: 21px; } }
+
+.form__ruble::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: -16px;
+  width: 10px;
+  height: 12px;
+  background-image: url("../img/ruble.svg");
+  background-repeat: no-repeat; }
+
+.form__ruble::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 45px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #0d3351;
+  cursor: pointer; }
+
+.form__language {
+  position: relative;
+  margin: 0;
+  line-height: 48px;
+  font-family: "Raleway", "Arial", sans-serif; }
+  .form__language::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #0d3351;
+    cursor: pointer; }
+
+.main-navigation {
+  position: absolute;
+  display: none;
+  width: 290px;
+  min-height: 300px;
+  top: 80px;
+  left: 15px;
+  background-color: #0d3351;
+  z-index: 11; }
+  @media (min-width: 750px) {
+    .main-navigation {
+      width: 420px;
+      min-height: 420px; } }
+  @media (min-width: 1170px) {
+    .main-navigation {
+      top: 40px;
+      left: 382px; } }
+
+.main-navigation__list {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  padding-left: 40px;
+  list-style: none; }
+
+.main-navigation__toggle {
+  position: absolute;
+  top: 26px;
+  left: 15px;
+  cursor: pointer;
+  border: none;
+  width: 22px;
+  height: 2px;
+  background-color: inherit; }
+  @media (min-width: 750px) {
+    .main-navigation__toggle {
+      top: 10px; } }
+  @media (min-width: 1170px) {
+    .main-navigation__toggle {
+      left: 382px; } }
+  .main-navigation__toggle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    -webkit-box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+            box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000; }
+
+@media (min-width: 768px) {
+  .main-navigation__show {
+    display: block; } }
+
+.modal {
+  position: fixed;
+  background-color: #fff; }
+
+.modal-popup {
+  z-index: 10;
+  top: 80px;
+  left: 50%;
+  width: 700px;
+  height: 600px;
+  margin-left: -350px;
+  padding-top: 65px;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  display: none; }
+
+@media (min-width: 320px) {
+  .modal-popup__show {
+    display: none; } }
+
+@media (min-width: 750px) {
+  .modal-popup__show {
+    display: block; } }
+
+.modal-popup__cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent; }
+  .modal-popup__cross::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .modal-popup__cross::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+
+.modal-popup__hill {
+  margin-left: 60px; }
+
+.modal-popup__img {
+  margin-right: 2px; }
+
+.modal-popup__picture {
+  margin-left: 60px; }
+
+.modal-popup__text {
+  padding-left: 375px;
+  margin-top: -250px; }
+
+.modal-popup__title {
+  margin: 0;
+  padding-right: 160px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00a2dd; }
+
+.modal-popup__route {
+  margin: 0;
+  padding-right: 50px;
+  margin-bottom: 5px;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.modal-popup__duration {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.modal-popup__time {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.modal-popup__departure {
+  margin: 0;
+  text-align: left;
+  padding-right: 40px;
+  margin-bottom: 25px;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.modal-popup__cost {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 48px; }
+
+.modal-popup__button {
+  display: block;
+  width: 200px;
+  height: 46px;
+  margin-left: 372px;
+  line-height: 48px;
+  font-weight: 300;
+  background-color: #33c7fd;
+  color: #fff;
+  border: 0;
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif; }
+
+.page-footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: #fff; }
+  @media (min-width: 750px) {
+    .page-footer {
+      padding-bottom: 40px; } }
+  @media (min-width: 1170px) {
+    .page-footer {
+      padding-top: 12px; } }
+
+@media (min-width: 750px) {
+  .page-footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline; } }
+
+@media (min-width: 1170px) {
+  .page-footer__wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+.page-footer__text {
+  margin: 0;
+  padding-top: 14px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 750px) {
+    .page-footer__text {
+      text-align: left; } }
+  @media (min-width: 1170px) {
+    .page-footer__text {
+      letter-spacing: 0.7px; } }
+
+.page-footer__contacts--hidden {
+  display: none; }
+
+@media (min-width: 750px) {
+  .page-footer__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+@media (min-width: 1170px) {
+  .page-footer__contacts {
+    margin-top: 13px; } }
+
+@media (min-width: 750px) {
+  .page-footer__link {
+    font-family: "Raleway", "Arial", sans-serif;
+    color: #0d3351; } }
+
+@media (min-width: 1170px) {
+  .page-footer__link {
+    letter-spacing: 0.6px; } }
+
+.page-header {
+  position: relative;
+  z-index: 1; }
+  @media (min-width: 750px) {
+    .page-header {
+      margin-top: 24px; } }
+  @media (min-width: 1170px) {
+    .page-header {
+      margin-top: 22px; } }
+
+.page-header__logo {
+  display: block;
+  padding-top: 25px;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .page-header__logo {
+      padding-top: 72px; } }
+  @media (min-width: 1170px) {
+    .page-header__logo {
+      padding-top: 15px; } }
+
+.page-header__logo-mobile {
+  width: 70px;
+  height: 70px; }
+  @media (min-width: 1170px) {
+    .page-header__logo-mobile {
+      display: none; } }
+
+.page-header__logo-desktop {
+  display: none; }
+  @media (min-width: 1170px) {
+    .page-header__logo-desktop {
+      display: block;
+      width: 88px;
+      height: 88px;
+      margin: 0 auto; } }
+
+.page-header__top-link--hidden {
+  display: none; }
+  @media (min-width: 750px) {
+    .page-header__top-link--hidden {
+      display: block; } }
+
+.page-header__top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.page-header__top-phone {
+  display: block;
+  color: #0d3351;
+  font-weight: bold;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .page-header__top-phone {
+      letter-spacing: 1.2px; } }
+
+.page-header__top-text {
+  display: block;
+  margin: 0;
+  font-size: 10px;
+  line-height: 12px;
+  color: #0d3351;
+  font-family: "Raleway", "Arial", sans-serif; }
+  @media (min-width: 1170px) {
+    .page-header__top-text {
+      font-size: 11px;
+      line-height: 16px; } }
+
+.site-list a {
+  display: block;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #0d3351; }
+  @media (min-width: 750px) {
+    .site-list a {
+      font-size: 18px;
+      line-height: 48px;
+      padding-left: 30px; } }
+
+.social {
+  margin-bottom: 11px; }
+  @media (min-width: 1170px) {
+    .social {
+      margin-right: 308px; } }
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  width: 150px;
+  list-style: none; }
+
+.social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0d3351; }
+
+.tour {
+  background-image: url("../img/sochi-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 207px;
+  margin-top: -102px;
+  margin-bottom: 43px; }
+  @media (min-width: 750px) {
+    .tour {
+      background-image: url("../img/sochi-tablet@1x.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding-bottom: 207px;
+      margin-top: -221px;
+      margin-bottom: 47px; } }
+  @media (min-width: 1170px) {
+    .tour {
+      background-image: url("../img/sochi-desktop@1x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 195px;
+      margin-bottom: 106px;
+      margin-top: -240px; } }
+
+.tour-wrapper {
+  position: relative; }
+  .tour-wrapper::before {
+    content: "";
+    position: absolute;
+    bottom: -252px;
+    right: 45%;
+    width: 53px;
+    height: 230px;
+    background-image: url("../img/line-mobile.svg");
+    background-repeat: no-repeat; }
+    @media (min-width: 750px) {
+      .tour-wrapper::before {
+        right: 47%; } }
+    @media (min-width: 1170px) {
+      .tour-wrapper::before {
+        width: 63px;
+        height: 282px;
+        bottom: -298px;
+        right: 927px;
+        background-image: url("../img/line-desktop.svg"); } }
+
+.tour-title {
+  margin: 0;
+  padding-top: 95px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: 400; }
+  @media (min-width: 750px) {
+    .tour-title {
+      font-size: 26px;
+      padding-top: 212px;
+      margin-bottom: 7px; } }
+  @media (min-width: 1170px) {
+    .tour-title {
+      font-size: 36px;
+      padding-top: 244px;
+      margin-bottom: 59px;
+      letter-spacing: 1.6px; } }
+
+.tour-text {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 50px;
+  line-height: 48px; }
+  @media (min-width: 750px) {
+    .tour-text {
+      font-size: 69px;
+      margin-bottom: 30px; } }
+  @media (min-width: 1170px) {
+    .tour-text {
+      font-size: 100px;
+      margin-bottom: 71px;
+      letter-spacing: -2.5px; } }
+
+.tour-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 48px;
+  font-weight: 400;
+  background-color: #33c7fd;
+  color: #fff;
+  border: 0;
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif;
+  cursor: pointer; }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "RobotoSlab", "Arial", sans-serif;
+  font-weight: normal;
+  background-color: #f3f3f3;
+  color: #0d3351; }
+  @media (min-width: 750px) {
+    body {
+      width: auto;
+      margin: 0 auto; } }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%); }
+
+.container {
+  min-width: 320px;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  @media (min-width: 750px) {
+    .container {
+      width: 750px;
+      padding: 0 15px;
+      margin: 0 auto; } }
+  @media (min-width: 1170px) {
+    .container {
+      width: 1170px; } }
+
+@font-face {
+  font-weight: 300;
+  font-family: "RobotoSlab";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/robotoslablight.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 400;
+  font-family: "RobotoSlab";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/robotoslabregular.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 700;
+  font-family: "RobotoSlab";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/robotoslabbold.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 300;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ralewaylight.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 400;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ralewayregular.woff2") format("woff2"); }
+
+@font-face {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ralewaybold.woff2") format("woff2"); }
